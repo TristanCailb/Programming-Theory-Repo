@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
         MovePlayer();
     }
 
+    // ABSTRACTION
     /// <summary>
     /// Get the player inputs
     /// </summary>
@@ -48,6 +49,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    // ABSTRACTION
     /// <summary>
     /// Move the player
     /// </summary>

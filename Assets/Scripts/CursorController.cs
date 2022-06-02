@@ -22,6 +22,7 @@ public class CursorController : MonoBehaviour
         UpdateColor();
     }
 
+    // ABSTRACTION
     /// <summary>
     /// Update cursor position
     /// </summary>
@@ -32,6 +33,7 @@ public class CursorController : MonoBehaviour
         transform.position = position;
     }
 
+    // ABSTRACTION
     /// <summary>
     /// Update cursor color
     /// </summary>

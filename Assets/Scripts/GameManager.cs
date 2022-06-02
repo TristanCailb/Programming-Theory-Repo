@@ -13,45 +13,49 @@ public class GameManager : MonoBehaviour
     #endregion
 
     [SerializeField] private TMP_Text scoreText;
-    private int _currentPoints;
+    public int CurrentPoints { get; private set; } // ENCAPSULATION
 
     private void Start()
     {
         UpdateScoreText();
     }
 
+    // ABSTRACTION
     /// <summary>
     /// Add points
     /// </summary>
     public void AddPoints(int amount)
     {
-        _currentPoints += amount;
+        CurrentPoints += amount;
         UpdateScoreText();
     }
 
+    // ABSTRACTION
     /// <summary>
     /// Remove points
     /// </summary>
     public void RemovePoints(int amount)
     {
         if (!CanRemovePoints(amount)) return;
-        _currentPoints -= amount;
+        CurrentPoints -= amount;
         UpdateScoreText();
     }
 
+    // ABSTRACTION
     /// <summary>
     /// Check if we can remove points
     /// </summary>
     public bool CanRemovePoints(int amount)
     {
-        return amount <= _currentPoints;
+        return amount <= CurrentPoints;
     }
 
+    // ABSTRACTION
     /// <summary>
     /// Update the score text
     /// </summary>
     private void UpdateScoreText()
     {
-        scoreText.text = _currentPoints.ToString("000");
+        scoreText.text = CurrentPoints.ToString("000");
     }
 }

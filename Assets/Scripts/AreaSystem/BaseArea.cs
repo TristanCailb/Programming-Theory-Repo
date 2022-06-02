@@ -28,6 +28,7 @@ public abstract class BaseArea : MonoBehaviour
         UpdateAreaColor();
     }
 
+    // ABSTRACTION
     /// <summary>
     /// Update the area color
     /// </summary>

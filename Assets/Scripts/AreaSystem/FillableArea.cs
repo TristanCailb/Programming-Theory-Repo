@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+// INHERITANCE
 public abstract class FillableArea : BaseArea
 {
     [SerializeField] protected bool isFilling;
@@ -9,6 +10,7 @@ public abstract class FillableArea : BaseArea
     [SerializeField] protected int pointsValue;
     [SerializeField] protected Image gauge;
 
+    // POLYMORPHISM
     protected override void Start()
     {
         base.Start();
@@ -20,6 +22,7 @@ public abstract class FillableArea : BaseArea
         UpdateFillAmount();
     }
 
+    // POLYMORPHISM
     /// <summary>
     /// Update the fill amount
     /// </summary>
@@ -37,6 +40,7 @@ public abstract class FillableArea : BaseArea
         UpdateGauge();
     }
 
+    // ABSTRACTION
     /// <summary>
     /// Update the gauge
     /// </summary>
@@ -45,6 +49,7 @@ public abstract class FillableArea : BaseArea
         gauge.fillAmount = fillAmount;
     }
 
+    // ABSTRACTION
     /// <summary>
     /// Reset the fill amount
     /// </summary>
@@ -54,6 +59,7 @@ public abstract class FillableArea : BaseArea
         UpdateGauge();
     }
 
+    // ABSTRACTION
     /// <summary>
     /// Method called when the fill amount reaches the max value
     /// </summary>

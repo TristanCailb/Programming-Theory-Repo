@@ -2,12 +2,14 @@
 using TMPro;
 using UnityEngine;
 
+// INHERITANCE
 public class BuyArea : BaseArea
 {
     [SerializeField] private int areaPrice;
     [SerializeField] private TMP_Text priceText;
     [SerializeField] private FillableArea areaPrefab;
 
+    // POLYMORPHISM
     protected override void Start()
     {
         base.Start();

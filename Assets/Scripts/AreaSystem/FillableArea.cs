@@ -59,6 +59,14 @@ public abstract class FillableArea : BaseArea
         UpdateGauge();
     }
 
+    /// <summary>
+    /// Set the points value
+    /// </summary>
+    public void SetPointsValue(int value)
+    {
+        pointsValue = value;
+    }
+
     // ABSTRACTION
     /// <summary>
     /// Method called when the fill amount reaches the max value

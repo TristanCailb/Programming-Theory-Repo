@@ -8,6 +8,7 @@ public class BuyArea : BaseArea
     [SerializeField] private int areaPrice;
     [SerializeField] private TMP_Text priceText;
     [SerializeField] private FillableArea areaPrefab;
+    [SerializeField] private int areaPointsValue;
 
     // POLYMORPHISM
     protected override void Start()
@@ -24,7 +25,8 @@ public class BuyArea : BaseArea
         {
             if (!GameManager.Instance.CanRemovePoints(areaPrice)) return;
             GameManager.Instance.RemovePoints(areaPrice);
-            Instantiate(areaPrefab, transform.position, Quaternion.identity);
+            var area = Instantiate(areaPrefab, transform.position, Quaternion.identity);
+            area.SetPointsValue(areaPointsValue);
             Destroy(gameObject);
         }
     }

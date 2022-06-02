@@ -334,7 +334,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 607973542231824731, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
       propertyPath: areaPrice
-      value: 10000
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 607973542231824731, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
+      propertyPath: areaPointsValue
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 607973542471957057, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
       propertyPath: m_Camera
@@ -569,7 +573,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 607973542231824731, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
       propertyPath: areaPrice
-      value: 1000000
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 607973542231824731, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
+      propertyPath: areaPointsValue
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 607973542471957057, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
       propertyPath: m_Camera
@@ -736,6 +744,14 @@ PrefabInstance:
     - target: {fileID: 607973542231824730, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
       propertyPath: m_Name
       value: Buy_Area_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 607973542231824731, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
+      propertyPath: areaPrice
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 607973542231824731, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
+      propertyPath: areaPointsValue
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 607973542471957057, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
       propertyPath: m_Camera
@@ -911,7 +927,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 607973542231824731, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
       propertyPath: areaPrice
-      value: 100000
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 607973542231824731, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
+      propertyPath: areaPointsValue
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 607973542471957057, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
       propertyPath: m_Camera
@@ -1253,7 +1273,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 607973542231824731, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
       propertyPath: areaPrice
-      value: 100
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 607973542231824731, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
+      propertyPath: areaPointsValue
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 607973542471957057, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
       propertyPath: m_Camera
@@ -1389,7 +1413,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 607973542231824731, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
       propertyPath: areaPrice
-      value: 1000
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 607973542231824731, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
+      propertyPath: areaPointsValue
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 607973542471957057, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
       propertyPath: m_Camera
@@ -1593,7 +1621,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 607973542231824731, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
       propertyPath: areaPrice
-      value: 500000
+      value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 607973542231824731, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
+      propertyPath: areaPointsValue
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 607973542471957057, guid: e17255a710998fa4988190f6ea13a1de, type: 3}
       propertyPath: m_Camera
